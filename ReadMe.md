@@ -12,7 +12,7 @@
   * **Output**: I
 * This program will make the switch for all these numbers, 1, 5, 10, 50, 100, 500, 1,000.
   * **Input**: 5, 10, 50, 100, 500, 1,000.
-  * **Output** V, X, L, C, D, M.
+  * **Output**: V, X, L, C, D, M.
 * This program will add the symbols to equal the imputed numbers.
   * **Input**: 13, 2, 20
   * **Output**: XIII, II, XX
