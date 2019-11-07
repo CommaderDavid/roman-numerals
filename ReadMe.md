@@ -4,4 +4,7 @@
 #### By _David Boedigheimer_
 
 ### BDD process
+* This program must not interact with letters
+  * **Input**: "abcd"
+  * **Output**: "Please enter a number"
 * 
