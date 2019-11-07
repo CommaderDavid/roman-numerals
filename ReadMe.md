@@ -22,3 +22,6 @@
 * This program will separate ones, tens, hundreds, and thousands.
   * **Input**: 99
   * **Output**: XCIX
+* This program will not convert any higher from 3,999.
+  * **Input**: 4,000
+  * **Output**: "Not convertible from Roman Numerals"
