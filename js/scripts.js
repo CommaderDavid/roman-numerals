@@ -12,8 +12,20 @@ var romanNumbers = function(numberInput) {
   var splitNumbers = numberInput.split("").reverse();
   var returnNumber = [];
 
-  if (splitNumber.length === 4) {
-    returnNumber.push(ones[splitNumber[0]])
+  if (splitNumbers.length === 4) {
+    returnNumber.push(ones[splitNumbers[0]])
+    returnNumber.push(tens[splitNumbers[1]])
+    returnNumber.push(hundreds[splitNumbers[2]])
+    returnNumber.push(thousands[splitNumbers[3]])
+  } else if (splitNumbers.length === 3) {
+    returnNumber.push(ones[splitNumbers[0]])
+    returnNumber.push(tens[splitNumbers[1]])
+    returnNumber.push(hundreds[splitNumbers[2]])
+  } else if (splitNumbers.length === 2) {
+    returnNumber.push(ones[splitNumbers[0]])
+    returnNumber.push(tens[splitNumbers[1]])
+  } else if (splitNumbers.length === 1) {
+    returnNumber.push(ones[splitNumbers[0]])
   }
 
   // for (var i = 0; i < splitNumbers.length; i++) {
