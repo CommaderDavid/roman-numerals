@@ -45,6 +45,10 @@ $(document).ready(function() {
     var numberInput = $("input#numbers").val();
     var result = romanNumbers(numberInput);
 
-    $("#results").append(result + "<br>");
-  })
-})
+    if (!result) {
+      $("#results").append("Not convertible to Roman Numerals" + "<br>");
+    } else {
+      $("#results").append(result + "<br>");
+    }
+  });
+});
