@@ -13,7 +13,7 @@ var romanNumbers = function(numberInput) {
   var returnNumber = [];
 
   if (splitNumber.length === 4) {
-    returnNumber.push()
+    returnNumber.push(ones[splitNumber[0]])
   }
 
   // for (var i = 0; i < splitNumbers.length; i++) {
