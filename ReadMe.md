@@ -25,3 +25,20 @@
 * This program will not convert any higher from 3,999.
   * **Input**: 4,000
   * **Output**: "Not convertible from Roman Numerals"
+
+### Description
+This website will take any inputted number and convert it to Roman Numerals. This website uses, HTML, CSS, JavaScript, Bootstrap, jQuery, the BDD process, and GitHub.
+
+### Repository Setup/Installation
+* Copy the repository
+* Open the html file in a browser of your choosing
+* Input the number you want converted
+* Enjoy!
+
+### Contact/Support Details
+If you have any questions or concerns, please contact me at stealth259@gmail.com
+
+#### License
+This website is licensed by the MIT license.
+
+Copyright (c) 2019 _**David Boedigheimer**_
