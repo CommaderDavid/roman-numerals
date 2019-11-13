@@ -25,13 +25,13 @@
 
 #### Please list the names of the lessons you completed today:
 
-*
+* 3.4 Roman Numerals
 
 
 #### Please list the names of the projects you worked on today:
 
-*
+* 3.4 Roman Numerals
 
 #### Please add a link to GitHub repository to all projects you worked on today:
 
-*
+* https://github.com/CommaderDavid/roman-numerals
